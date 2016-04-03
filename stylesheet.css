@@ -1,0 +1,82 @@
+
+/* Basics CSS  */
+
+p {
+  line-height: 2em;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 16pt;
+}
+.heading {
+  color: #33FF00;
+  font-size: 60pt;
+  font-family: 'Caveat Brush', cursive;
+  margin-bottom: 0px;
+}
+.center {
+  text-align: center;
+}
+.main {
+  position: fixed;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Racer CSS */
+
+.racer_table {
+margin-left: auto;
+margin-right: auto;
+}
+.racer_table td {
+  width: 150px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-image: url('http://2amtraffic.com/blog/tammymore/wp-content/uploads/sites/109/2014/02/psychedelic-art.jpg');
+/*   border: solid 5px white; */
+  border-radius: 50%;
+}
+
+/* Finish line */
+
+div.finish {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  height: 440px;
+  width: 650px;
+  background-size: cover;
+  transform: translate(-50%, -50%);
+}
+.winner {
+  color: #33FF00;
+  font-size: 40pt;
+  font-family: 'Caveat Brush', cursive;
+  margin: 10px;
+  text-align: center;
+}
+.play-again {
+  background-color: #33FF00;
+}
+.finish  {
+  background-image: url('http://1.bp.blogspot.com/-J92eXgw29PQ/Ub93XWMpFZI/AAAAAAAAAQ8/bfT2AL7KtMY/s1600/i.chzbgr-1.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button {
+  background-color: red;
+  color: white;
+  font-size: 20pt;
+  font-family: 'Caveat Brush', cursive;
+  margin: 10px;
+  text-align: center;
+  position: absolute;
+  top: 330px;
+  left: 450px;
+  padding: 10px 20px;
+}
+.hide {
+  display: none;
+}
