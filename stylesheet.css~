@@ -1,0 +1,40 @@
+
+/* Basics CSS  */
+
+p {
+  line-height: 2em;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 16pt;
+}
+
+.heading {
+  color: #33FF00;
+  font-size: 60pt;
+  font-family: 'Caveat Brush', cursive;
+}
+.center {
+  text-align: center;
+}
+
+/* Racer CSS */
+
+.racer_table {
+margin-left: auto;
+margin-right: auto;
+}
+.racer_table td {
+  width: 150px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-image: url('http://2amtraffic.com/blog/tammymore/wp-content/uploads/sites/109/2014/02/psychedelic-art.jpg');
+/*   border: solid 5px white; */
+  border-radius: 50%;
+}
+
+/* Finish line */
+
+.finish  {
+
+}
+
+
